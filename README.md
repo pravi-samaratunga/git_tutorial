@@ -1,9 +1,10 @@
-|:---:|
-|![](/img/git.png)|
+<p align="center"><img alt="Please don't do this" src="https://imgs.xkcd.com/comics/git.png"></p>
+
+# Pravi's Git Tutorial
 
 Download this repository by using `git clone`. Do not use the "Download Zip" function in GitHub. In general, you should never ever use that button:
 
-![Do not press "Download Zip"](/img/github_do_not.png)
+![Do not press "Download Zip"](img/github_do_not.png)
 
 The command you should use is `git clone`. Copy the box highlighted above in green, and add it to the end of `git clone`. For instance:
 
@@ -17,9 +18,11 @@ The repository versions that are kept track of are called **commits**. Each comm
 
 It is important to understand that **git** and **GitHub** are not the same thing. GitHub is a website that hosts many git repositories. Git itself is simply a version control system. Git repositories do not depend on GitHub in any way, but it is often convenient to use GitHub as a central server on which to host repositories.
 
+I've marked certain paragraphs with a 🔶. Let me know when you are at these steps. Most of the rest of this tutorial is somewhat more focused on theory, but these are somewhat whimsical exercises. 
+
 ## git status, git add, git commit
 
-🔶Make a folder within the `git_tutorial` folder. Add a file to that folder. Write 3 short lines in that file. It doesn't really matter what else that file contains.
+🔶 Make a folder within the `git_tutorial` folder. Add a file to that folder. Write 3 short lines in that file. It doesn't really matter what else that file contains.
 
 Run `git status` to see the files in the working directory. You'll notice that the file you just added is not shown, because it is inside of a folder.
 
@@ -83,11 +86,13 @@ Each local repository is considered a **branch**. You can set up individual bran
 
 You can read more here: [Git-scm chapter 3 in Chinese](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B)
 
-🔶Go into everyone else's folder and edit their files. Add your changes, commit them, and then pull changes from the remote repository. You will probably get a merge conflict. View the files which have merge conflicts and fix them, then make another commit before you pull and push again.
+🔶 Go into everyone else's folder and edit their files. Add your changes, commit them, and then pull changes from the remote repository. You will probably get a merge conflict. View the files which have merge conflicts and fix them, then make another commit before you pull and push again.
 
 ## Viewing previous revisions of code
 
-Basically, use `git log` and `git checkout`. If you get to this point of this file, tell me so that I know that I need to finish writing it, and read [Git-scm chapter 7](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E9%80%89%E6%8B%A9%E4%BF%AE%E8%AE%A2%E7%89%88%E6%9C%AC).
+Basically, use `git log` and `git checkout`. If you get to this point of the tutorial, tell me so that I know that I need to finish writing it, and read [Git-scm chapter 7](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E9%80%89%E6%8B%A9%E4%BF%AE%E8%AE%A2%E7%89%88%E6%9C%AC).
+
+
 
 # More reading
 
