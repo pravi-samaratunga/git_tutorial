@@ -39,6 +39,8 @@ You can run `git status` again to make sure that the right files have been added
 git commit
 ```
 
+You may be asked to run some `git config` commands. Just do what it says in the prompt, replacing the example emails and usernames with your actual email and name. We can use this information in order to tell who made each commit.
+
 At this point, your terminal's text editor will pop up. Write a description of your file, then save and exit.
 
 If you do not want to use the terminal text editor, you can instead use `git commit -m "<Description of file>"`. That's what I usually do. Commit messages should be short and descriptive, so that you know what you did between this commit and the previous one.
